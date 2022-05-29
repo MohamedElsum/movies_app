@@ -5,7 +5,6 @@ import 'package:movies_app/presentation/screens/get_tickets.dart';
 import 'package:movies_app/presentation/screens/trailer_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:animated_text_kit/animated_text_kit.dart';
 import '../../core/constants/strings.dart';
 
 class MovieDetailsScreen extends StatefulWidget {

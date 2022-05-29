@@ -65,7 +65,7 @@ class _TrailerScreenState extends State<TrailerScreen> {
               onPressed: () {
                 Navigator.of(context).pop();
               },
-              child: Text(
+              child: const Text(
                 'Done',
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               )),

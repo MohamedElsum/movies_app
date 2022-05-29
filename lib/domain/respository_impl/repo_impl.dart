@@ -19,9 +19,7 @@ class RepoImpl implements Repository {
   Future<MovieDetailsResponse?>? getMovieDetails(int movieId) async {
     final movieDetailsResponse =
         await remoteDataSourceImpl.getMovieDetails(movieId);
-    print('jjjjjjjjjjjjjjjjjjjjjjj $movieDetailsResponse');
     final movieDetails = MovieDetailsResponse.fromJson(movieDetailsResponse);
-    print('jjjjjjjjjjjjjjjjjjjjjjj ${movieDetails.genres}');
     return movieDetails;
   }
 
