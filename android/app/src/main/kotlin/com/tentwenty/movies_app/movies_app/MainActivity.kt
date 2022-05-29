@@ -1,4 +1,4 @@
-package com.zidane.breaking_bad_clone.breaking_bad_clone
+package com.tentwenty.movies_app.movies_app
 
 import io.flutter.embedding.android.FlutterActivity
 
